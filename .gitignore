@@ -37,7 +37,6 @@ yarn-error.log*
 !README.md
 !PROJECT_TEMPLATE.md
 
-# Package lock files (optional - remove if you want to commit these)
-package-lock.json
+# Yarn/pnpm lock files
 yarn.lock
 pnpm-lock.yaml
