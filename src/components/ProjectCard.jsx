@@ -31,9 +31,9 @@ export default function ProjectCard({ project }) {
       className="block glass-card rounded-lg overflow-hidden hover:shadow-lg hover:scale-[1.02] transition-all duration-200"
     >
       <div className="aspect-video relative overflow-hidden">
-        {project.image ? (
+        {(project.image || project.images?.[0]) ? (
           <img
-            src={project.image}
+            src={project.image || project.images[0]}
             alt={project.title}
             className="w-full h-full object-cover"
           />
