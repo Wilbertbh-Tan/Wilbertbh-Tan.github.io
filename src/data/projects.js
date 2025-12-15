@@ -111,9 +111,9 @@ deployed to 1,000+ enterprise customers worldwide. integrated into ibm maximo as
     year: '2021',
     techStack: ['C/C++', 'ESP32', 'TinyML', 'Bluetooth'],
     images: [
+      '/images/abby/Follow_Mode_WebSection_af83d6fd-e2aa-4e3c-9bc2-5e2f87eaffbc.webp',
       '/images/abby/MFG_Techstars_Science_Fair.webp',
-      '/images/abby/PXL_20211209_021750149.jpg',
-      '/images/abby/Follow_Mode_WebSection_af83d6fd-e2aa-4e3c-9bc2-5e2f87eaffbc.webp'
+      '/images/abby/PXL_20211209_021750149.jpg'
     ],
     fullDescription: `
 # overview
