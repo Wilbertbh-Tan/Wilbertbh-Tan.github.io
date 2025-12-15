@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const TAG_KEYWORDS = {
   cyan: ['finance', 'enterprise', 'healthcare', 'energy', 'research', 'startup', 'aerospace', 'sustainability'],
   blue: ['mobile', 'iot', 'hardware', 'mechanical'],
-  purple: ['embedded', 'llm', 'computer vision', 'machine learning', 'deep learning', 'neuromorphic', 'synthetic biology', 'computational biology', 'time series', 'control systems', 'spintronics', 'web scraping', 'industrial', 'prototyping']
+  purple: ['embedded', 'llm', 'computer vision', 'machine learning', 'deep learning', 'neuromorphic', 'synthetic biology', 'computational biology', 'time series', 'control systems', 'spintronics', 'web scraping', 'industrial', 'prototyping', 'deterministic', 'citations']
 };
 
 const TAG_STYLES = {
