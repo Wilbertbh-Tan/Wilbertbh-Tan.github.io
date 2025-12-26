@@ -142,6 +142,40 @@ affordable assistive technology for underserved communities globally. demonstrat
     }
   },
   {
+    id: 'neuromorphic-spiking-networks',
+    title: 'Neuromorphic Spiking Neural Networks',
+    description: 'Spin-wave implementation of spiking neural networks with spike-timing-dependent plasticity. Honors thesis research using micromagnetic simulations on high-performance clusters.',
+    tags: ['Research', 'Neuromorphic Computing', 'Spintronics'],
+    year: '2020',
+    techStack: ['Mumax3', 'Go', 'HPC', 'Python'],
+    image: 'https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80',
+    fullDescription: `
+# overview
+
+spin-wave implementations of spiking neural networks with spike-timing-dependent plasticity (stdp) for neuromorphic computing. honors thesis research using micromagnetic simulations to explore energy-efficient alternatives to conventional neural networks.
+
+## my role
+
+sole researcher for b.eng honors thesis supervised by prof. kelvin xuanyao fong. developed simulation framework, designed stdp learning rules compatible with spin-wave physics, and ran large-scale parameter sweeps on hpc clusters.
+
+## innovative features
+
+**spin-wave computing substrate:** uses magnetization dynamics in thin films instead of electrical signals. spin-wave interference enables analog computation with potentially lower energy than cmos.
+
+**physical stdp implementation:** learning rules emerge naturally from spin-wave coupling dynamics, not implemented in software. plasticity based on magnetic material properties.
+
+**hpc simulation framework:** mumax3-based simulations model device-level magnetization dynamics while exploring network-level learning behaviors.
+
+## impact
+
+b.eng honors thesis at nus. contributed to understanding of neuromorphic computing substrates and energy-efficient hardware for ai. explored novel intersection of materials physics and machine learning.
+    `,
+    links: {
+      github: null,
+      live: null
+    }
+  },
+  {
     id: 'wearable-gait-analysis',
     title: 'Wearable Gait Analysis Device',
     description: 'IoT wearable for gait analytics and fall-risk assessment deployed across multiple Singapore eldercare facilities. Won Second Prize at Singapore Medical Grand Challenge ($20,000 SGD).',
@@ -181,37 +215,37 @@ deployed across multiple singapore eldercare facilities. won second prize ($15,0
     }
   },
   {
-    id: 'igem-biosafety-killswitch',
-    title: 'Biosafety Kill-Switch System',
-    description: 'Novel biological kill-switch system for synthetic biology containment. Led NUS iGEM team to Gold Medal (top bracket among 310 teams worldwide) with computational modeling and wet-lab design.',
-    tags: ['Research', 'Synthetic Biology', 'Computational Biology'],
-    year: '2017',
-    techStack: ['MATLAB', 'AdvanceSyn', 'Python'],
-    image: 'https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800&q=80',
+    id: 'microgrid-predictive-control',
+    title: 'Predictive Control for Microgrids',
+    description: 'Predictive control algorithms to enhance droop control response in microgrid systems by anticipating load and generation fluctuations. Research at Rolls-Royce R&D Systems Integration.',
+    tags: ['Sustainability', 'Control Systems'],
+    year: '2019',
+    techStack: ['MATLAB', 'Simulink', 'PLC', 'HMI'],
+    image: 'https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=800&q=80',
     fullDescription: `
 # overview
 
-novel biological kill-switch system for synthetic biology containment, developed with nus igem team. uses multi-layered toxin-antitoxin systems with environmental sensors for robust biosafety of genetically modified organisms.
+predictive control algorithms for microgrid systems, developed at rolls-royce r&d systems integration. enhances traditional droop control by anticipating load and generation fluctuations for faster grid response.
 
 ## my role
 
-computational modeling lead - developed ode-based models of genetic circuits in matlab to guide wet-lab experimental design. also led stakeholder engagement, secured sponsorship, and coordinated with international teams (us, france, uk, pakistan, germany).
+research intern supervised by prof. sanjib kumar panda & dr. souvik dasgupta. developed predictive control models, designed plc network architecture, and built human-machine interfaces for operator control.
 
 ## innovative features
 
-**model-guided wet-lab design:** computational simulations predicted kill-switch efficiency before expensive experiments. sensitivity analysis identified critical parameters for robust design.
+**predictive droop enhancement:** anticipates load changes before they occur, enabling proactive adjustments to power distribution rather than reactive correction.
 
-**multi-layered containment:** multiple independent kill-switch mechanisms ensure containment even if one system fails. environmental sensors enable conditional activation.
+**industrial-grade reliability:** redundant communication paths and latency-optimized networking ensure real-time control performance in critical power infrastructure.
 
-**standardized biobricks:** designed for integration with existing synthetic biology toolkits, enabling easy adoption by other researchers.
+**operator-friendly hmi:** intuitive visualization of microgrid state with alarm management and manual override controls for safe operation.
 
 ## impact
 
-awarded gold medal at igem grand jamboree (top bracket among 310 teams worldwide). presented research at international conference in boston. contributed to biosafety best practices in synthetic biology community.
+research internship at rolls-royce r&d contributing to microgrid control systems. gained experience in industrial plc programming, real-time control systems, and critical infrastructure reliability requirements.
     `,
     links: {
       github: null,
-      live: 'http://2017.igem.org/Team:NUS_Singapore-A'
+      live: null
     }
   },
   {
@@ -219,7 +253,7 @@ awarded gold medal at igem grand jamboree (top bracket among 310 teams worldwide
     title: 'VLM Thrusters for Cube Satellites',
     description: '3D-printed water-vapor micro-thrusters for low-cost, environmentally friendly cubesat propulsion. Won Second Prize at CNES-ESA ActinSpace global competition and Airbus Defence & Innovation Prize.',
     tags: ['Aerospace', 'Hardware', 'Prototyping'],
-    year: '2017',
+    year: '2018',
     techStack: ['CAD', '3D Printing', 'ANSYS'],
     image: 'https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=800&q=80',
     fullDescription: `
@@ -242,40 +276,6 @@ team lead - led mechanical design and prototyping, conducted thermal analysis, m
 ## impact
 
 second prize at cnes-esa actinspace global competition (toulouse). airbus defence & innovation prize. first prize at singapore space & technology competition. demonstrated feasibility of low-cost propulsion for nano-satellite constellations.
-    `,
-    links: {
-      github: null,
-      live: null
-    }
-  },
-  {
-    id: 'neuromorphic-spiking-networks',
-    title: 'Neuromorphic Spiking Neural Networks',
-    description: 'Spin-wave implementation of spiking neural networks with spike-timing-dependent plasticity. Honors thesis research using micromagnetic simulations on high-performance clusters.',
-    tags: ['Research', 'Neuromorphic Computing', 'Spintronics'],
-    year: '2020',
-    techStack: ['Mumax3', 'Go', 'HPC', 'Python'],
-    image: 'https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80',
-    fullDescription: `
-# overview
-
-spin-wave implementations of spiking neural networks with spike-timing-dependent plasticity (stdp) for neuromorphic computing. honors thesis research using micromagnetic simulations to explore energy-efficient alternatives to conventional neural networks.
-
-## my role
-
-sole researcher for b.eng honors thesis supervised by prof. kelvin xuanyao fong. developed simulation framework, designed stdp learning rules compatible with spin-wave physics, and ran large-scale parameter sweeps on hpc clusters.
-
-## innovative features
-
-**spin-wave computing substrate:** uses magnetization dynamics in thin films instead of electrical signals. spin-wave interference enables analog computation with potentially lower energy than cmos.
-
-**physical stdp implementation:** learning rules emerge naturally from spin-wave coupling dynamics, not implemented in software. plasticity based on magnetic material properties.
-
-**hpc simulation framework:** mumax3-based simulations model device-level magnetization dynamics while exploring network-level learning behaviors.
-
-## impact
-
-b.eng honors thesis at nus. contributed to understanding of neuromorphic computing substrates and energy-efficient hardware for ai. explored novel intersection of materials physics and machine learning.
     `,
     links: {
       github: null,
@@ -317,37 +317,37 @@ undergraduate research project demonstrating feasibility of bacteria-computer in
     }
   },
   {
-    id: 'microgrid-predictive-control',
-    title: 'Predictive Control for Microgrids',
-    description: 'Predictive control algorithms to enhance droop control response in microgrid systems by anticipating load and generation fluctuations. Research at Rolls-Royce R&D Systems Integration.',
-    tags: ['Sustainability', 'Control Systems'],
-    year: '2019',
-    techStack: ['MATLAB', 'Simulink', 'PLC', 'HMI'],
-    image: 'https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=800&q=80',
+    id: 'igem-biosafety-killswitch',
+    title: 'Biosafety Kill-Switch System',
+    description: 'Novel biological kill-switch system for synthetic biology containment. Led NUS iGEM team to Gold Medal (top bracket among 310 teams worldwide) with computational modeling and wet-lab design.',
+    tags: ['Research', 'Synthetic Biology', 'Computational Biology'],
+    year: '2017',
+    techStack: ['MATLAB', 'AdvanceSyn', 'Python'],
+    image: 'https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800&q=80',
     fullDescription: `
 # overview
 
-predictive control algorithms for microgrid systems, developed at rolls-royce r&d systems integration. enhances traditional droop control by anticipating load and generation fluctuations for faster grid response.
+novel biological kill-switch system for synthetic biology containment, developed with nus igem team. uses multi-layered toxin-antitoxin systems with environmental sensors for robust biosafety of genetically modified organisms.
 
 ## my role
 
-research intern supervised by prof. sanjib kumar panda & dr. souvik dasgupta. developed predictive control models, designed plc network architecture, and built human-machine interfaces for operator control.
+computational modeling lead - developed ode-based models of genetic circuits in matlab to guide wet-lab experimental design. also led stakeholder engagement, secured sponsorship, and coordinated with international teams (us, france, uk, pakistan, germany).
 
 ## innovative features
 
-**predictive droop enhancement:** anticipates load changes before they occur, enabling proactive adjustments to power distribution rather than reactive correction.
+**model-guided wet-lab design:** computational simulations predicted kill-switch efficiency before expensive experiments. sensitivity analysis identified critical parameters for robust design.
 
-**industrial-grade reliability:** redundant communication paths and latency-optimized networking ensure real-time control performance in critical power infrastructure.
+**multi-layered containment:** multiple independent kill-switch mechanisms ensure containment even if one system fails. environmental sensors enable conditional activation.
 
-**operator-friendly hmi:** intuitive visualization of microgrid state with alarm management and manual override controls for safe operation.
+**standardized biobricks:** designed for integration with existing synthetic biology toolkits, enabling easy adoption by other researchers.
 
 ## impact
 
-research internship at rolls-royce r&d contributing to microgrid control systems. gained experience in industrial plc programming, real-time control systems, and critical infrastructure reliability requirements.
+awarded gold medal at igem grand jamboree (top bracket among 310 teams worldwide). presented research at international conference in boston. contributed to biosafety best practices in synthetic biology community.
     `,
     links: {
       github: null,
-      live: null
+      live: 'http://2017.igem.org/Team:NUS_Singapore-A'
     }
   }
 ];
