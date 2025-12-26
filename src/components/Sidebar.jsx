@@ -12,27 +12,26 @@ export default function Sidebar() {
               Wilbert Tan
             </h1>
           </Link>
-          <p className="text-sm text-gray-700 mb-4">
-            Software Engineer & Creative
+          <p className="text-sm text-gray-700">
+            Building tech, restoring agency
+            <br />
+            <span className="text-gray-500">Ex-IBM · Human-Centered AI & Healthcare</span>
           </p>
-          <img
-            src="https://ui-avatars.com/api/?name=Wilbert+Tan&background=3b82f6&color=fff&size=256"
-            alt="Wilbert Tan"
-            className="w-24 h-24 rounded-full mx-auto"
-          />
         </div>
 
         {/* Social Links */}
         <div className="flex gap-3 text-sm">
           <a
-            href="#"
+            href="/wilbertcv.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             className="group flex items-center text-blue-600 hover:text-blue-900 transition-colors duration-200"
           >
             CV
             <span className="inline-block ml-1 transition-transform duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5">↗</span>
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://linkedin.com/in/wilbert-tan/"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex items-center text-blue-600 hover:text-blue-900 transition-colors duration-200"
@@ -41,7 +40,7 @@ export default function Sidebar() {
             <span className="inline-block ml-1 transition-transform duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5">↗</span>
           </a>
           <a
-            href="https://github.com"
+            href="https://github.com/Wilbertbh-Tan"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex items-center text-blue-600 hover:text-blue-900 transition-colors duration-200"
