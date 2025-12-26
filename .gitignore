@@ -27,9 +27,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# AI/Editor configs
-.claude/*
-!.claude/settings.json
+# Editor configs
 .cursor/
 .cursorules
 .copilot/
