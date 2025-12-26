@@ -255,7 +255,12 @@ research internship at rolls-royce r&d contributing to microgrid control systems
     tags: ['Aerospace', 'Hardware', 'Prototyping'],
     year: '2018',
     techStack: ['CAD', '3D Printing', 'ANSYS'],
-    image: 'https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=800&q=80',
+    images: [
+      '/images/vlm/img1.jpg',
+      '/images/vlm/img2.jpg',
+      '/images/vlm/img3.jpg',
+      '/images/vlm/img4.jpg'
+    ],
     fullDescription: `
 # overview
 
