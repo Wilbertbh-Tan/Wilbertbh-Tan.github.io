@@ -57,10 +57,10 @@ export default function Sidebar() {
           Currently
         </h2>
         <ul className="space-y-2 text-sm sm:text-base text-gray-700 list-disc list-inside">
-          <li>Studying mechanistic interpretability in AI/ML systems</li>
-          <li>Building RAG report generation with real-time market data</li>
+          <li>Researching mechanistic interpretability in neural networks</li>
+          <li>Exploring neural manifolds in NeuroAI</li>
+          <li>Building a researcher agent for real-time market analysis</li>
           <li>Developing eye and gaze tracking for mobile devices</li>
-          <li>Open to full-time opportunities in AI/ML research and engineering</li>
         </ul>
       </div>
     </aside>
