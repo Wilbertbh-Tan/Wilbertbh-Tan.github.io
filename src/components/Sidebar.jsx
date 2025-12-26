@@ -56,7 +56,7 @@ export default function Sidebar() {
         <h2 className="text-base uppercase text-black mb-4">
           Currently
         </h2>
-        <ul className="space-y-2 text-sm sm:text-base text-gray-700 list-disc list-inside">
+        <ul className="space-y-2 text-sm sm:text-base text-gray-700">
           <li>Researching mechanistic interpretability in neural networks</li>
           <li>Exploring neural manifolds in NeuroAI</li>
           <li>Building a researcher agent for real-time market analysis</li>
