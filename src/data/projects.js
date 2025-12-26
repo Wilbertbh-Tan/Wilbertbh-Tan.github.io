@@ -148,7 +148,7 @@ affordable assistive technology for underserved communities globally. demonstrat
     tags: ['Research', 'Neuromorphic Computing', 'Spintronics'],
     year: '2020',
     techStack: ['Mumax3', 'Go', 'HPC', 'Python'],
-    image: 'https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80',
+    image: '/images/neuromorphic/skyrmion.png',
     fullDescription: `
 # overview
 
