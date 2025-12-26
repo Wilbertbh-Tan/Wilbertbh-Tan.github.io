@@ -148,7 +148,12 @@ affordable assistive technology for underserved communities globally. demonstrat
     tags: ['Healthcare', 'Embedded Systems', 'Hardware'],
     year: '2019',
     techStack: ['C/C++', 'ESP32', 'Altium', 'BLE'],
-    image: 'https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?w=800&q=80',
+    images: [
+      '/images/gait/award1.jpg',
+      '/images/gait/pcb.jpg',
+      '/images/gait/award2.jpg',
+      '/images/gait/award3.jpg'
+    ],
     fullDescription: `
 # overview
 
