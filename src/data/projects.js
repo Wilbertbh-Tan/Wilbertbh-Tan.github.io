@@ -149,8 +149,8 @@ affordable assistive technology for underserved communities globally. demonstrat
     year: '2019',
     techStack: ['C/C++', 'ESP32', 'Altium', 'BLE'],
     images: [
-      '/images/gait/award1.jpg',
       '/images/gait/pcb.jpg',
+      '/images/gait/award1.jpg',
       '/images/gait/award2.jpg',
       '/images/gait/award3.jpg'
     ],
