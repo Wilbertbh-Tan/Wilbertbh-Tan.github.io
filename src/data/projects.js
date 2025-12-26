@@ -172,7 +172,7 @@ b.eng honors thesis at nus. contributed to understanding of neuromorphic computi
     `,
     links: {
       github: null,
-      live: { url: 'https://docs.google.com/gview?url=https://wilbertbh-tan.github.io/images/neuromorphic/spinwave-presentation.pptx&embedded=false', label: 'presentation' }
+      live: { url: 'https://1drv.ms/p/c/5c0d7963016aa40c/IQAMpGoBY3kNIIBcSXkAAAAAATlZNBxfPiDPeEq9rv0eKV8?e=WcxSgT', label: 'presentation' }
     }
   },
   {
