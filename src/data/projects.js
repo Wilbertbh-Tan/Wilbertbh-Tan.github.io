@@ -172,7 +172,7 @@ b.eng honors thesis at nus. contributed to understanding of neuromorphic computi
     `,
     links: {
       github: null,
-      live: null
+      live: { url: '/images/neuromorphic/spinwave-presentation.pptx', label: 'presentation' }
     }
   },
   {
