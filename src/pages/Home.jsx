@@ -11,16 +11,19 @@ export default function Home() {
         </h2>
         <div className="space-y-3 text-sm sm:text-base text-gray-700 leading-relaxed">
           <p>
-            Hi there! I'm Wilbert, an AI/ML engineer and researcher. I'm currently conducting independent research on mechanistic interpretability, building RAG systems for deep research with real-time market data crawling, and developing eye tracking for mobile devices using MediaPipe and YOLO.
+            I'm Wilbert Tan, an AI/ML engineer (ex-IBM Expert Labs) building applied ML and LLM systems end-to-end, from problem framing and data pipelines to deployment and monitoring.
           </p>
           <p>
-            From 2022 to 2024, I worked as a Data Scientist at IBM Expert Labs, where I built enterprise ML solutions spanning anomaly detection, time-series forecasting, reinforcement learning, and computer vision. I led development of the Electrical Model Suite for transformer health analytics, integrated into IBM Maximo and deployed to 1,000+ customers. Later in 2024, I advised Fortune 500 financial services clients on AI strategy and LLM implementation as a Customer Success Manager.
+            At IBM, I shipped enterprise solutions across anomaly detection, forecasting, reinforcement learning, and computer vision. One project, a transformer health analytics suite integrated into IBM Maximo, now helps 1,000+ customers predict equipment failures before they happen.
           </p>
           <p>
-            Before IBM, I built embedded control systems for a smart wheelchair at GogoTech (funded by the Melinda Gates Foundation). At NUS, I researched neuromorphic computing with spin-wave neural networks, led the iGEM team to a Gold Medal (top bracket among 310 teams), built a wearable gait analysis device that won Second Prize at the Singapore Medical Grand Challenge, and developed 3D-printed micro-thrusters for cubesats that earned recognition at CNES-ESA ActinSpace.
+            Earlier at NUS, I researched neuromorphic computing, built embedded control systems for a smart wheelchair, and won awards for work on hyperloop systems, water-based thrusters, and synthetic biology safety.
           </p>
           <p>
-            I graduated from the National University of Singapore with a B.Eng (Honors) in Electrical Engineering. I'm open to full-time opportunities in AI/ML research and engineering. Feel free to reach out about interesting projects or collaborations.
+            I hold a B.Eng (Honors) in Electrical Engineering from the National University of Singapore. Right now, I'm working on financial AI, neural-AI, and mechanistic interpretability research.
+          </p>
+          <p className="text-gray-500 font-mono text-sm">
+            wbt8[at]yale[dot]edu
           </p>
         </div>
       </section>
