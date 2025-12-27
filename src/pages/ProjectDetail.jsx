@@ -137,7 +137,7 @@ export default function ProjectDetail() {
             <img
               src={currentImage}
               alt={project.title}
-              className="w-full h-auto"
+              className="w-full h-auto max-w-full"
             />
           </div>
 
