@@ -3,123 +3,354 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Wilbert Tan - AI/ML Engineer specializing in BCIs, biomedical engineering, and sustainability">
-
-    <title>Wilbert Tan</title>
-
+    
+    <!-- SEO Meta Tags -->
+    <title>Your Name | Data Scientist & Engineer</title>
+    <meta name="description" content="Data scientist and electrical engineer exploring the intersection of biosignals, BCIs, and human-computer interaction.">
+    <meta name="keywords" content="data science, electrical engineering, BCI, brain-computer interface, biomedical, sustainability">
+    <meta name="author" content="Your Name">
+    
+    <!-- Open Graph for Social Sharing -->
+    <meta property="og:title" content="Your Name | Portfolio">
+    <meta property="og:description" content="Data scientist and electrical engineer exploring the intersection of biosignals and human-computer interaction.">
+    <meta property="og:image" content="images/og-image.jpg">
+    <meta property="og:url" content="https://yoursite.com">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    
     <!-- Favicon -->
-    <link rel="icon" href="https://ui-avatars.com/api/?name=WT&background=1a1a1a&color=fff&size=32&bold=true">
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    
+    <!-- Fonts: Schibsted Grotesk (same as Eizo) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="styles.css">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- Header / Navigation -->
+    
+    <!-- ========== HEADER/NAV ========== -->
     <header class="header">
         <nav class="nav">
-            <a href="#" class="nav-logo">WT</a>
-            <ul class="nav-links">
-                <li><a href="#projects">Projects</a></li>
+            <a href="/" class="nav__logo">
+                <span class="logo-text">YN</span>
+            </a>
+            
+            <div class="nav__clock" id="clock">
+                <span class="clock__time">00:00:00</span>
+                <span class="clock__period">AM</span>
+            </div>
+            
+            <div class="nav__location">
+                Based in [Your City]
+            </div>
+            
+            <ul class="nav__links">
                 <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-            <div class="nav-clock" id="clock"></div>
+            
+            <div class="nav__social">
+                <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener">LI</a>
+                <a href="https://github.com/yourprofile" target="_blank" rel="noopener">GH</a>
+                <a href="https://scholar.google.com/yourprofile" target="_blank" rel="noopener">GS</a>
+            </div>
         </nav>
     </header>
 
-    <main>
-        <!-- Hero Section -->
-        <section class="hero" id="hero">
-            <div class="hero-content">
-                <p class="hero-greeting">Hello, I'm</p>
-                <h1 class="hero-name">Wilbert Tan</h1>
-                <p class="hero-tagline">AI/ML Engineer & Researcher</p>
-                <p class="hero-credentials">Electrical Engineering • Data Science • Sustainability</p>
-
-                <div class="hero-status">
-                    <span class="status-dot"></span>
-                    <span>Open to opportunities</span>
+    <!-- ========== HERO SECTION ========== -->
+    <section class="hero" id="hero">
+        <div class="hero__content">
+            <h1 class="hero__title">
+                I'm <span class="highlight">Your Name</span>, a data scientist and electrical engineer exploring the intersection of biosignals, brain-computer interfaces, and sustainable technology.
+            </h1>
+            
+            <!-- Key credentials -->
+            <div class="hero__credentials">
+                <div class="credential">
+                    <span class="credential__number">3+</span>
+                    <span class="credential__label">Years Experience</span>
                 </div>
-
-                <div class="hero-cta">
-                    <a href="#contact" class="btn btn-primary">Get in Touch</a>
-                    <a href="wilbertcv.pdf" class="btn btn-secondary" target="_blank">View CV</a>
+                <div class="credential">
+                    <span class="credential__number">BSc</span>
+                    <span class="credential__label">Electrical Engineering</span>
                 </div>
-            </div>
-        </section>
-
-        <!-- Featured In Section -->
-        <section class="featured" id="featured">
-            <h2 class="section-title">Featured In</h2>
-            <div class="featured-grid">
-                <!-- Publications and conferences will go here -->
-            </div>
-        </section>
-
-        <!-- Projects Section -->
-        <section class="projects" id="projects">
-            <h2 class="section-title">Projects</h2>
-            <div class="projects-grid">
-                <!-- Project cards will go here -->
-            </div>
-        </section>
-
-        <!-- About Section -->
-        <section class="about" id="about">
-            <h2 class="section-title">About</h2>
-            <div class="about-content">
-                <div class="about-story">
-                    <h3>My Story</h3>
-                    <p><!-- Your story here --></p>
-                </div>
-                <div class="about-values">
-                    <h3>Values</h3>
-                    <ul class="values-list">
-                        <li>Unique</li>
-                        <li>Kind</li>
-                        <li>Integrity</li>
-                    </ul>
+                <div class="credential">
+                    <span class="credential__number">MSc</span>
+                    <span class="credential__label">Data Science</span>
                 </div>
             </div>
-        </section>
-
-        <!-- Skills Section -->
-        <section class="skills" id="skills">
-            <h2 class="section-title">Expertise</h2>
-            <div class="skills-grid">
-                <!-- 4 skill categories will go here -->
+            
+            <!-- Current status/availability -->
+            <div class="hero__status">
+                <span class="status__indicator"></span>
+                <span class="status__text">Open to PhD positions & industry roles in biomedical engineering</span>
             </div>
-        </section>
-
-        <!-- Affiliations Section -->
-        <section class="affiliations" id="affiliations">
-            <h2 class="section-title">Affiliations</h2>
-            <div class="affiliations-logos">
-                <!-- University/company logos will go here -->
+            
+            <!-- Call to action -->
+            <div class="hero__cta">
+                <a href="#projects" class="btn btn--primary">View Projects</a>
+                <a href="#contact" class="btn btn--secondary">Get in Touch</a>
             </div>
-        </section>
+        </div>
+        
+        <!-- Hero visual placeholder -->
+        <div class="hero__visual">
+            <div class="hero__image-placeholder"></div>
+        </div>
+    </section>
 
-        <!-- Contact Section -->
-        <section class="contact" id="contact">
-            <h2 class="section-title">Get in Touch</h2>
-            <div class="contact-content">
-                <p class="contact-text">Interested in collaborating or just want to say hi?</p>
-                <a href="mailto:your@email.com" class="btn btn-primary">Say Hello</a>
+    <!-- ========== FEATURED IN ========== -->
+    <section class="featured" id="featured">
+        <h2 class="section__label">Featured In</h2>
+        
+        <div class="featured__grid">
+            <a href="#" class="featured__item" target="_blank" rel="noopener">
+                <img src="images/featured/publication-logo.svg" alt="Publication Name">
+                <span class="featured__title">Publication or Conference Name</span>
+                <span class="featured__type">Research Paper</span>
+            </a>
+            
+            <a href="#" class="featured__item" target="_blank" rel="noopener">
+                <img src="images/featured/conference-logo.svg" alt="Conference Name">
+                <span class="featured__title">Conference Presentation</span>
+                <span class="featured__type">Talk</span>
+            </a>
+        </div>
+    </section>
 
-                <div class="social-links">
-                    <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener">LinkedIn</a>
-                    <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a>
+    <!-- ========== PROJECTS ========== -->
+    <section class="projects" id="projects">
+        <h2 class="section__label">Selected Projects</h2>
+        
+        <div class="projects__gallery">
+            <article class="project-card">
+                <a href="project-detail.html" class="project-card__link">
+                    <div class="project-card__media">
+                        <img src="images/projects/project-01.jpg" alt="Project Name">
+                    </div>
+                    <div class="project-card__info">
+                        <h3 class="project-card__title">Project Title</h3>
+                        <span class="project-card__category">Data Science / Sustainability</span>
+                    </div>
+                </a>
+            </article>
+            
+            <article class="project-card">
+                <a href="project-detail.html" class="project-card__link">
+                    <div class="project-card__media">
+                        <img src="images/projects/project-02.jpg" alt="Project Name">
+                    </div>
+                    <div class="project-card__info">
+                        <h3 class="project-card__title">Another Project</h3>
+                        <span class="project-card__category">Electrical Engineering</span>
+                    </div>
+                </a>
+            </article>
+            
+            <article class="project-card">
+                <a href="project-detail.html" class="project-card__link">
+                    <div class="project-card__media">
+                        <img src="images/projects/project-03.jpg" alt="Project Name">
+                    </div>
+                    <div class="project-card__info">
+                        <h3 class="project-card__title">Sabbatical Project</h3>
+                        <span class="project-card__category">Personal Exploration</span>
+                    </div>
+                </a>
+            </article>
+        </div>
+        
+        <a href="projects.html" class="projects__view-all">View All Projects →</a>
+    </section>
+
+    <!-- ========== ABOUT ========== -->
+    <section class="about" id="about">
+        <div class="about__content">
+            <h2 class="section__label">About</h2>
+            
+            <div class="about__intro">
+                <p class="about__lead">
+                    I believe the most interesting problems live at the boundaries between disciplines.
+                </p>
+            </div>
+            
+            <div class="about__story">
+                <p>
+                    My journey began in electrical engineering, where I developed a foundation in 
+                    signal processing and systems thinking. This led me to data science, where I 
+                    spent three years applying machine learning to sustainability challenges, from 
+                    energy optimization to environmental monitoring.
+                </p>
+                <p>
+                    After a sabbatical year building projects that excited me, I'm now drawn to 
+                    the frontier of brain-computer interfaces and biomedical engineering. I see 
+                    this as a natural evolution: the same skills that help us understand power 
+                    grids can help us decode neural signals.
+                </p>
+                <p>
+                    I'm currently seeking PhD positions and industry roles where I can contribute 
+                    to research at the intersection of data science and human biology.
+                </p>
+            </div>
+            
+            <div class="about__values">
+                <h3 class="about__values-title">What I care about</h3>
+                <ul class="values__list">
+                    <li class="value">
+                        <span class="value__name">Integrity</span>
+                        <span class="value__desc">Honest work, reproducible results, clear communication</span>
+                    </li>
+                    <li class="value">
+                        <span class="value__name">Kindness</span>
+                        <span class="value__desc">Collaboration over competition, lifting others up</span>
+                    </li>
+                    <li class="value">
+                        <span class="value__name">Uniqueness</span>
+                        <span class="value__desc">Fresh perspectives from unexpected combinations</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="about__image">
+            <img src="images/portrait.jpg" alt="Your Name">
+        </div>
+    </section>
+
+    <!-- ========== SKILLS/EXPERTISE ========== -->
+    <section class="skills" id="skills">
+        <h2 class="section__label">Expertise</h2>
+        
+        <div class="skills__grid">
+            <div class="skill-category">
+                <h3 class="skill-category__title">Data Science & ML</h3>
+                <ul class="skill-category__list">
+                    <li>Machine Learning & Deep Learning</li>
+                    <li>Signal Processing</li>
+                    <li>Time Series Analysis</li>
+                    <li>Statistical Modeling</li>
+                    <li>Data Visualization</li>
+                </ul>
+            </div>
+            
+            <div class="skill-category">
+                <h3 class="skill-category__title">Engineering</h3>
+                <ul class="skill-category__list">
+                    <li>Electrical Systems</li>
+                    <li>Embedded Systems</li>
+                    <li>Sensor Integration</li>
+                    <li>Circuit Design</li>
+                    <li>IoT Development</li>
+                </ul>
+            </div>
+            
+            <div class="skill-category">
+                <h3 class="skill-category__title">Tools & Technologies</h3>
+                <ul class="skill-category__list">
+                    <li>Python (NumPy, Pandas, TensorFlow)</li>
+                    <li>MATLAB</li>
+                    <li>SQL & Database Design</li>
+                    <li>Git & Version Control</li>
+                    <li>Cloud Platforms (AWS/GCP)</li>
+                </ul>
+            </div>
+            
+            <div class="skill-category">
+                <h3 class="skill-category__title">Research Interests</h3>
+                <ul class="skill-category__list">
+                    <li>Brain-Computer Interfaces</li>
+                    <li>Biosignal Processing</li>
+                    <li>Neural Engineering</li>
+                    <li>Human-Computer Interaction</li>
+                    <li>Sustainable Technology</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== AFFILIATIONS ========== -->
+    <section class="affiliations" id="affiliations">
+        <h2 class="section__label">Affiliations</h2>
+        
+        <div class="affiliations__marquee">
+            <div class="affiliations__track">
+                <div class="affiliation">
+                    <img src="images/affiliations/university-logo.svg" alt="University Name">
+                    <span class="affiliation__name">University Name</span>
+                </div>
+                
+                <div class="affiliation">
+                    <img src="images/affiliations/company-1-logo.svg" alt="Company Name">
+                    <span class="affiliation__name">Company Name</span>
+                </div>
+                
+                <div class="affiliation">
+                    <img src="images/affiliations/company-2-logo.svg" alt="Company Name">
+                    <span class="affiliation__name">Another Company</span>
+                </div>
+                
+                <div class="affiliation">
+                    <img src="images/affiliations/lab-logo.svg" alt="Research Lab">
+                    <span class="affiliation__name">Research Lab</span>
+                </div>
+                
+                <div class="affiliation">
+                    <img src="images/affiliations/org-logo.svg" alt="Organization">
+                    <span class="affiliation__name">Professional Org</span>
                 </div>
             </div>
-        </section>
-    </main>
+        </div>
+    </section>
 
-    <!-- Footer -->
+    <!-- ========== CONTACT ========== -->
+    <section class="contact" id="contact">
+        <div class="contact__content">
+            <h2 class="contact__heading">Let's connect</h2>
+            <p class="contact__subheading">
+                Whether you're a researcher, recruiter, or fellow builder, 
+                I'd love to hear from you.
+            </p>
+            
+            <div class="contact__methods">
+                <a href="mailto:your.email@example.com" class="contact__email">
+                    your.email@example.com
+                </a>
+            </div>
+            
+            <div class="contact__social">
+                <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener" class="social-link">
+                    <span class="social-link__label">LinkedIn</span>
+                </a>
+                <a href="https://github.com/yourprofile" target="_blank" rel="noopener" class="social-link">
+                    <span class="social-link__label">GitHub</span>
+                </a>
+                <a href="https://scholar.google.com/yourprofile" target="_blank" rel="noopener" class="social-link">
+                    <span class="social-link__label">Google Scholar</span>
+                </a>
+                <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener" class="social-link">
+                    <span class="social-link__label">Twitter/X</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
     <footer class="footer">
-        <p>&copy; 2025 Wilbert Tan. All rights reserved.</p>
+        <div class="footer__content">
+            <p class="footer__copyright">© 2025 Your Name. All rights reserved.</p>
+            <p class="footer__credits">
+                Designed & built by me while learning HTML, CSS & JS.
+            </p>
+        </div>
     </footer>
 
-    <!-- JavaScript -->
-    <script src="script.js"></script>
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
 </body>
 </html>
