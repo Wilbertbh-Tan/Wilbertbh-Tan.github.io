@@ -1,40 +1,11 @@
-# Dependencies
-node_modules/
-
-# Build output
-dist/
-build/
-
-# Vite
-.vite/
-*.local
-
-# Editor directories
-.vscode/
-.idea/
-
 # OS files
 .DS_Store
 Thumbs.db
 
-# Environment variables
-.env
-.env.*
+# Editor directories
+.vscode/
+.idea/
+.cursor/
 
 # Logs
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Editor configs
-.cursor/
-.cursorules
-.copilot/
-*.md
-!README.md
-!PROJECT_TEMPLATE.md
-
-# Yarn/pnpm lock files
-yarn.lock
-pnpm-lock.yaml
