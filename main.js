@@ -215,8 +215,8 @@ document.querySelectorAll('#menuOverlay a[href^="#"]').forEach((a) => {
   a.addEventListener("click", () => setMenuOpen(false));
 });
 
-// Prevent flickering when clicking nav links
-document.querySelectorAll('a[href^="#"]').forEach((a) => {
+// Prevent flickering when clicking nav links (only target actual nav links, not project cards)
+document.querySelectorAll('.nav__links a[href^="#"], .menu-overlay__links a[href^="#"], .nav__logo[href^="#"]').forEach((a) => {
   a.addEventListener("click", () => {
     const href = a.getAttribute("href");
     // Disable transitions during nav scroll
@@ -241,6 +241,13 @@ document.querySelectorAll('a[href^="#"]').forEach((a) => {
       document.body.classList.remove("nav-scrolling");
       lastScrollY = window.scrollY;
     }, 800);
+  });
+});
+
+// Prevent project card placeholder links from scrolling to top
+document.querySelectorAll('.project-card__link[href="#"]').forEach((a) => {
+  a.addEventListener("click", (e) => {
+    e.preventDefault();
   });
 });
 
